@@ -1,0 +1,34 @@
+<main>
+
+	<h2>Ready for a new leash on life?</h2>
+
+	<form action="/sign-up" method="post">
+		<label for="">Name</label>
+		<input name="name" type="text">
+		<br>
+		<label for="">Email</label>
+		<input name="email" type="text">
+		<br>
+		<label for="">Password</label>
+		<input name="password" type="password">
+		<br>
+		<label for="">Preferred meeting location (eg. Sunshine, Mordialloc)</label>
+		<input id="autocomplete" name="address"	type="text">
+		<br>
+		<label for="">Preferred day (eg. Tuesday, Saturday)</label>
+		<input name="preferred_day"	type="text">
+		<br>
+		<label for="">Preferred time (eg. 12:00-18:00)</label>
+		<input name="preferred_time"	type="text">
+		<br>		
+		<label for="">Phone number</label>
+		<input name="phone" type="number">		
+
+		<button>Sign-Up</button>
+
+	<!-- 	<% if @new_user != nil %>
+					<p class="error"><%= @new_message.errors.full_messages %></p>
+				<% end %> -->
+	</form>
+
+</main>
